@@ -26,6 +26,6 @@
 </div>
 </div>
 </div>
-		<script src="js/valida_login.js"></script>
+		<script src="js login/valida_login.js"></script>
 	</body>
 </html>

@@ -19,7 +19,7 @@
       <li><a href="./login.php">LOGIN</a></li>
       <li><a href="administrador.php">ADMIN</a></li>
     <?php else:?>
-      <li><a href="./php/logout.php">SALIR</a></li>
+      <li><a href="php login/logout.php">SALIR</a></li>
     <?php endif;?>
     </ul>
 
