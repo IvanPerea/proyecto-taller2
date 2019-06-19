@@ -11,7 +11,7 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
 		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 	</head>
 	<body>
-	<?php include "php/navbar.php"; ?>
+	<?php include "php login/navbar.php"; ?>
 <div class="container">
 <div class="row">
 <div class="col-md-6">
