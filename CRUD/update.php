@@ -16,7 +16,7 @@ if(isset($_POST["id"]) && !empty($_POST["id"])){
     if(empty($input_name)){
         $name_err = "Please enter a name.";
     } elseif(!filter_var($input_name, FILTER_VALIDATE_REGEXP, array("options"=>array("regexp"=>"/^[a-zA-Z\s]+$/")))){
-        $name_err = "Please enter a valid name.";
+        $name_err = "Por favor ingrese un nombre válido.";
     } else{
         $name = $input_name;
     }
@@ -24,7 +24,7 @@ if(isset($_POST["id"]) && !empty($_POST["id"])){
     // Validate address address
     $input_address = trim($_POST["address"]);
     if(empty($input_address)){
-        $address_err = "Please enter an address.";     
+        $address_err = "Por favor ingrese una direccion.";     
     } else{
         $address = $input_address;
     }
@@ -32,9 +32,9 @@ if(isset($_POST["id"]) && !empty($_POST["id"])){
     // Validate salary
     $input_salary = trim($_POST["salary"]);
     if(empty($input_salary)){
-        $salary_err = "Please enter the salary amount.";     
+        $salary_err = "Por favor ingrese el monto del salario.";     
     } elseif(!ctype_digit($input_salary)){
-        $salary_err = "Please enter a positive integer value.";
+        $salary_err = "Por favor, introduzca un valor entero positivo.";
     } else{
         $salary = $input_salary;
     }
@@ -60,7 +60,7 @@ if(isset($_POST["id"]) && !empty($_POST["id"])){
                 header("location: index.php");
                 exit();
             } else{
-                echo "Something went wrong. Please try again later.";
+                echo "Algo salió mal. Por favor, inténtelo de nuevo más tarde.";
             }
         }
          
