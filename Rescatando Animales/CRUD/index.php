@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Dashboard</title>
+    <title>Tablero</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.js"></script>
@@ -70,7 +70,7 @@
                             // Free result set
                             mysqli_free_result($result);
                         } else{
-                            echo "<p class='lead'><em>No records were found.</em></p>";
+                            echo "<p class='lead'><em>No se encontraron registros.</em></p>";
                         }
                     } else{
                         echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
@@ -83,5 +83,6 @@
             </div>        
         </div>
     </div>
+    <a href="http://localhost/proyecto-taller2/Rescatando%20Animales/admin/admin/home.php">Regresar</a>
 </body>
 </html>
