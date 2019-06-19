@@ -12,6 +12,7 @@
 				<ul class="nav navbar-nav ">
 					<li class="active"><a href="index.php">Lista de empleados</a></li>
 					<li><a href="add.php">Agregar datos</a></li>
+					<li><a href="http://localhost/proyecto-taller2/Rescatando%20Animales/admin/admin/home.php">Salir</a></li>
 				</ul>
 			</div><!--/.nav-collapse -->
 	</div>

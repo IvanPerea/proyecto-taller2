@@ -29,6 +29,9 @@
 		<p>
 		¿Todavía no eres miembro? <a href="register.php">Regístrate</a>
 		</p>
+		<p>
+		<a href="http://localhost/proyecto-taller2/Rescatando%20Animales/">Regresar a la página principal</a>
+		</p>
 	</form>
 
 

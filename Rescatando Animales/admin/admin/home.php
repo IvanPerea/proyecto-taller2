@@ -60,6 +60,13 @@
 
 
 	</div>
+	<br>
+
+	<a href="http://localhost/proyecto-taller2/Rescatando%20Animales/CRUD/index.php"><h1 align="center">Empleados</h1></a>
+	<br>
+	<a href=""><h1 align="center">Perros</h1></a>
+	<br>
+	<a href=""><h1 align="center">Gatos</h1></a>
 		
 </body>
 </html>

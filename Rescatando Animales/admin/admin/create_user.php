@@ -48,7 +48,12 @@
 		</div>
 		<div class="input-group">
 			<button type="submit" class="btn" name="register_btn"> + Crear usuario</button>
+			<FORM NAME="buttonbar">
+	<INPUT TYPE="button" VALUE="Volver" onClick="history.back()">
+	</FORM>
 		</div>
 	</form>
+	<p align="center"><a href="http://localhost/proyecto-taller2/Rescatando%20Animales/admin/login.php">Iniciar Sesión</a></p>
+	
 </body>
 </html>
