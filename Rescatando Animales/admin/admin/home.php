@@ -23,7 +23,7 @@
 </head>
 <body>
 	<div class="header">
-		<h2>Admin - Pagina principal</h2>
+		<h2>Admin - Home Page</h2>
 	</div>
 	<div class="content">
 		<!-- notification message -->
@@ -49,25 +49,17 @@
 					<small>
 						<i  style="color: #888;">(<?php echo ucfirst($_SESSION['user']['user_type']); ?>)</i> 
 						<br>
-						<a href="home.php?logout='1'" style="color: red;">Salir</a>
-						&nbsp; <a href="create_user.php"> + añadir usuario</a>
+						<a href="home.php?logout='1'" style="color: red;">logout</a>
+						&nbsp; <a href="create_user.php"> + add user</a>
 					</small>
 
 				<?php endif ?>
 			</div>
 		</div>
-		
+
 
 
 	</div>
-	<br>
 		
-	<h1 align="center"><a href="http://localhost/proyecto-taller2/Rescatando%20Animales/CRUD/index.php">Empleados</a></h1>
-	<br>
-	<h1 align="center"><a href="perros.html">Perros</a></h1>
-	<br>
-	<h1 align="center"><a href="perros.html">Gatos</a></h1>
-	<br>
-
 </body>
 </html>

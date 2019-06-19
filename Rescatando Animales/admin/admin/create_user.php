@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Registrar Admin</title>
+	<title>Registration system PHP and MySQL - Create user</title>
 	<link rel="stylesheet" type="text/css" href="../style.css">
 	<style>
 		.header {
@@ -15,7 +15,7 @@
 </head>
 <body>
 	<div class="header">
-		<h2>Crear usuario Admin</h2>
+		<h2>Admin - create user</h2>
 	</div>
 	
 	<form method="post" action="create_user.php">
@@ -23,7 +23,7 @@
 		<?php echo display_error(); ?>
 
 		<div class="input-group">
-			<label>Nombre de usuario</label>
+			<label>Username</label>
 			<input type="text" name="username" value="<?php echo $username; ?>">
 		</div>
 		<div class="input-group">
@@ -31,25 +31,23 @@
 			<input type="email" name="email" value="<?php echo $email; ?>">
 		</div>
 		<div class="input-group">
-			<label>Tipo de usuario</label>
+			<label>User type</label>
 			<select name="user_type" id="user_type" >
 				<option value=""></option>
 				<option value="admin">Admin</option>
-				<option value="user">Usuario</option>
+				<option value="user">User</option>
 			</select>
 		</div>
 		<div class="input-group">
-			<label>Contraseña</label>
+			<label>Password</label>
 			<input type="password" name="password_1">
 		</div>
 		<div class="input-group">
-			<label>Confirmar contraseña</label>
+			<label>Confirm password</label>
 			<input type="password" name="password_2">
 		</div>
 		<div class="input-group">
-			<button type="submit" class="btn" name="register_btn"> + Crear usuario</button>
-			<a href="http://localhost/proyecto-taller2/Rescatando%20Animales/admin/login.php">Iniciar Sesión</a>
-	
+			<button type="submit" class="btn" name="register_btn"> + Create user</button>
 		</div>
 	</form>
 </body>

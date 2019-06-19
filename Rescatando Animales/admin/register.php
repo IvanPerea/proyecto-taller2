@@ -2,12 +2,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Registro</title>
+	<title>Registration system PHP and MySQL</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<div class="header">
-		<h2>Registrar</h2>
+		<h2>Register</h2>
 	</div>
 	
 	<form method="post" action="register.php">
@@ -15,7 +15,7 @@
 		<?php echo display_error(); ?>
 
 		<div class="input-group">
-			<label>Nombre de usuario</label>
+			<label>Username</label>
 			<input type="text" name="username" value="<?php echo $username; ?>">
 		</div>
 		<div class="input-group">
@@ -23,18 +23,18 @@
 			<input type="email" name="email" value="<?php echo $email; ?>">
 		</div>
 		<div class="input-group">
-			<label>Contraseña</label>
+			<label>Password</label>
 			<input type="password" name="password_1">
 		</div>
 		<div class="input-group">
-			<label>Confirmar contraseña</label>
+			<label>Confirm password</label>
 			<input type="password" name="password_2">
 		</div>
 		<div class="input-group">
-			<button type="submit" class="btn" name="register_btn">Registrar</button>
+			<button type="submit" class="btn" name="register_btn">Register</button>
 		</div>
 		<p>
-		¿Ya eres usuario? <a href="login.php">Sign in</a>
+			Already a member? <a href="login.php">Sign in</a>
 		</p>
 	</form>
 </body>
