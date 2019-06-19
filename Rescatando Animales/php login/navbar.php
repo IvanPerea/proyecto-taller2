@@ -17,7 +17,6 @@
       <?php if(!isset($_SESSION["user_id"])):?>
       <li><a href="./registro.php">REGISTRO</a></li>
       <li><a href="./login.php">LOGIN</a></li>
-      <li><a href="administrador.php">ADMIN</a></li>
     <?php else:?>
       <li><a href="php login/logout.php">SALIR</a></li>
     <?php endif;?>
